@@ -18,3 +18,11 @@ int pop(parking P,Car * temp)
 	Car * temp = P.space[P.top--];
 	return true;
 }
+
+int GetTop(parking P,Car * temp)
+{
+	if(P->top == -1) return false;
+	
+	Car * temp = P.space[P.top];
+	return true;
+}
